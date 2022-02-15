@@ -9,13 +9,13 @@ and register system. There are 3 types of users: Admin, Client and Employee. The
 items from a file, create new items (base products and composite products), edit items, delete items and 
 generate reports. The client can order items, search for specific items using some filters and can generate 
 bills. The employee receives a notification every time a new order is made
-# Use cases 
+# 3.Use cases 
 <p align="center">
   <img src="https://github.com/sergiugaga14/Food-Delivery-Management-System/blob/master/use.png" width="350" title="">
 
 </p>
 
-# GUI
+# 4.GUI
 <p align="center">
   
   <img src="https://github.com/sergiugaga14/Food-Delivery-Management-System/blob/master/u1.png" width="350" title="">
