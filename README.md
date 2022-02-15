@@ -27,6 +27,7 @@ bills. The employee receives a notification every time a new order is made
   <img src="https://github.com/sergiugaga14/Food-Delivery-Management-System/blob/master/u4.png" width="350" title="">
 
 </p>
+
 # Conclusions
 
 This assignment offered me a good opportunity to remember and apply the object-oriented programming 
