@@ -28,6 +28,7 @@ bills. The employee receives a notification every time a new order is made
 
 </p>
 # Conclusions
+
 This assignment offered me a good opportunity to remember and apply the object-oriented programming 
 paradigms and concepts. It also offered us an insight into the process of designing and developing a software 
 application.
