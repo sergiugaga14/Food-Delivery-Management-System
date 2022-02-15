@@ -11,8 +11,19 @@ generate reports. The client can order items, search for specific items using so
 bills. The employee receives a notification every time a new order is made
 # Use cases 
 <p align="center">
-  <img src="e" width="350" title="">
+  <img src="https://github.com/sergiugaga14/Food-Delivery-Management-System/blob/master/use.png" width="350" title="">
 
 </p>
 
 # GUI
+<p align="center">
+  
+  <img src="https://github.com/sergiugaga14/Food-Delivery-Management-System/blob/master/u1.png" width="350" title="">
+  
+  <img src="https://github.com/sergiugaga14/Food-Delivery-Management-System/blob/master/u2.png" width="350" title="">
+  
+  <img src="https://github.com/sergiugaga14/Food-Delivery-Management-System/blob/master/u3.png" width="350" title="">
+  
+  <img src="https://github.com/sergiugaga14/Food-Delivery-Management-System/blob/master/u4.png" width="350" title="">
+
+</p>
