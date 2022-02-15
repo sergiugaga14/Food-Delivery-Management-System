@@ -1,0 +1,5 @@
+Buyer: Sergiu
+Date: 24/05/2021 11:29:23
+Item: Smoked Caviar and Hummus on Pita Toasts 
+Item: Cauliflower-Leek Purée 
+Total Price: 92

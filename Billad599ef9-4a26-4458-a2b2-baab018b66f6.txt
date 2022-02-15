@@ -1,0 +1,6 @@
+Buyer: Sergiu
+Date: 24/05/2021 21:54:47
+Item: Spicy Pickled Shallots 
+Item: Shrimp Sates with Spiced Pistachio Chutney 
+Item: Beef Stock 
+Total Price: 182

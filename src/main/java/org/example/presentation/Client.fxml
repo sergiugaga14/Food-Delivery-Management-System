@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="688.0" prefWidth="941.0" style="-fx-background-color: DarkOrchid;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.presentation.ClientController">
+   <children>
+      <Button fx:id="view" layoutX="71.0" layoutY="99.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="49.0" prefWidth="115.0" text="Refresh View" />
+      <TableView fx:id="table" layoutX="251.0" layoutY="91.0" prefHeight="448.0" prefWidth="676.0">
+        <columns>
+          <TableColumn fx:id="titleCol" prefWidth="325.6000518798828" text="Title" />
+          <TableColumn fx:id="ratingCol" minWidth="0.0" prefWidth="65.5999755859375" text="Rating" />
+            <TableColumn fx:id="caloriesCol" minWidth="0.0" prefWidth="68.79998779296875" text="Calories" />
+            <TableColumn fx:id="proteinCol" prefWidth="66.4000244140625" text="Protein" />
+            <TableColumn fx:id="fatCol" prefWidth="35.199951171875" text="Fat" />
+            <TableColumn fx:id="sodiumCol" prefWidth="62.4000244140625" text="Sodium" />
+            <TableColumn fx:id="priceCol" prefWidth="52.0" text="Price" />
+        </columns>
+      </TableView>
+      <Button fx:id="add" layoutX="661.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="36.0" prefWidth="70.0" text="Add" />
+      <ComboBox fx:id="box" layoutX="451.0" layoutY="24.0" prefHeight="36.0" prefWidth="161.0" />
+      <Button fx:id="remove" layoutX="761.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="36.0" prefWidth="70.0" text="Remove" />
+      <Label layoutX="299.0" layoutY="24.0" prefHeight="36.0" prefWidth="139.0" text="Shopping Basket:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="165.0" prefHeight="30.0" prefWidth="72.0" text="Title:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="title" layoutX="128.0" layoutY="165.0" prefHeight="30.0" prefWidth="104.0" promptText="Insert title" />
+      <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="242.0" prefHeight="30.0" prefWidth="82.0" text="Calories:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="204.0" prefHeight="30.0" prefWidth="72.0" text="Rating:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="279.0" prefHeight="30.0" prefWidth="72.0" text="Protein:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="rating" layoutX="128.0" layoutY="204.0" prefHeight="30.0" prefWidth="104.0" promptText="Insert rating" />
+      <TextField fx:id="calories" layoutX="128.0" layoutY="242.0" prefHeight="30.0" prefWidth="104.0" promptText="Insert calories" />
+      <TextField fx:id="protein" layoutX="128.0" layoutY="279.0" prefHeight="30.0" prefWidth="104.0" promptText="Insert protein" />
+      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="319.0" prefHeight="30.0" prefWidth="72.0" text="Fat:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fat" layoutX="128.0" layoutY="319.0" prefHeight="30.0" prefWidth="104.0" promptText="Insert fat" />
+      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="356.0" prefHeight="30.0" prefWidth="72.0" text="Sodium:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="24.0" layoutY="393.0" prefHeight="30.0" prefWidth="72.0" text="Price:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sodium" layoutX="128.0" layoutY="356.0" prefHeight="30.0" prefWidth="104.0" promptText="Insert sodium" />
+      <TextField fx:id="price" layoutX="128.0" layoutY="393.0" prefHeight="30.0" prefWidth="104.0" promptText="Insert price" />
+      <Button fx:id="order" layoutX="71.0" layoutY="490.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="49.0" prefWidth="115.0" text="Make order" />
+      <Button fx:id="searchy" layoutX="71.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="49.0" prefWidth="115.0" text="Search menu item" />
+      <Button fx:id="generateBill" layoutX="71.0" layoutY="547.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="49.0" prefWidth="115.0" text="Generate bill" />
+      <Button fx:id="seeCompo" layoutX="816.0" layoutY="631.0" mnemonicParsing="false" onAction="#handleButtons" prefHeight="25.0" prefWidth="115.0" text="See composition" />
+      <TextArea fx:id="textArea" layoutX="251.0" layoutY="553.0" prefHeight="112.0" prefWidth="553.0" />
+      <Button fx:id="clear" layoutX="816.0" layoutY="597.0" mnemonicParsing="false" onAction="#handleButtons" text="Clear" />
+   </children>
+</Pane>
